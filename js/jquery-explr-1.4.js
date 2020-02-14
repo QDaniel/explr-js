@@ -97,7 +97,7 @@
                         .find('li')
                             .prepend('<span class="explr-line"></span>')
                             .not(':has(ul)')
-                            .addClass('icon-text')
+                            .addClass('expl-icon-text')
                             .end()
                         .has('ul')
                             .prepend('<span class="explr-plus" title="' + opts.folderTooltip + '"></span>')
