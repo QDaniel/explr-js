@@ -85,11 +85,12 @@
 	z-index: 1;
 }
 
-.explr-minus { background-image: url("img/pc.de/busy.png"); }
+.explr-minus { background-image: url("img/pc.de/minus.png"); }
 
 
 /* Menu icons: */
 
+.explr-tree .expl-icon-busy > li, .explr-tree li.expl-icon-busy { background-image: url("img/pc.de/busy.png"); }
 .explr-tree .expl-icon-text > li, .explr-tree li.expl-icon-text { background-image: url("img/pc.de/attibutes.png"); }
 .explr-tree .expl-icon-address > li, .explr-tree li.expl-icon-address { background-image: url("img/pc.de/address.png"); }
 .explr-tree .expl-icon-archives > li, .explr-tree li.expl-icon-archives { background-image: url("img/pc.de/archives.png"); }
